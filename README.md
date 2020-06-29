@@ -1,2 +1,2 @@
 # AbpCodeGeneration
-基于Abp构建的代码生成器，避免了基础代码的编写。
+此版是为旧版[Abp](https://aspnetboilerplate.com/)服务的代码生成器
