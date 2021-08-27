@@ -114,4 +114,99 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="basic" xml:space="preserve">
+    <value>Basic</value>
+  <comment>Need review</comment></data>
+  <data name="framework" xml:space="preserve">
+    <value>Framework</value>
+  <comment>Need review</comment></data>
+  <data name="features" xml:space="preserve">
+    <value>Features</value>
+  <comment>Need review</comment></data>
+  <data name="simplifiedDDD" xml:space="preserve">
+    <value>SimplifiedDDD</value>
+  <comment>Need review</comment></data>
+  <data name="standardDDD" xml:space="preserve">
+    <value>StandardDDD</value>
+  <comment>Need review</comment></data>
+  <data name="separateservicesharingpermissions" xml:space="preserve">
+    <value>Separate service sharing permissions</value>
+  <comment>Need review</comment></data>
+  <data name="namespaceprefix" xml:space="preserve">
+    <value>Namespace Prefix</value>
+  <comment>Need review</comment></data>
+  <data name="applicationservice" xml:space="preserve">
+    <value>Application Service</value>
+  <comment>Need review</comment></data>
+  <data name="domainservice" xml:space="preserve">
+    <value>Domain Service</value>
+  <comment>Need review</comment></data>
+  <data name="permissionservice" xml:space="preserve">
+    <value>Permission service</value>
+  <comment>Need review</comment></data>
+  <data name="controller" xml:space="preserve">
+    <value>Controller</value>
+  <comment>Need review</comment></data>
+  <data name="repository" xml:space="preserve">
+    <value>Repository</value>
+  <comment>Need review</comment></data>
+  <data name="excelimportexport" xml:space="preserve">
+    <value>Excel import and export</value>
+  <comment>Need review</comment></data>
+  <data name="uploadimage" xml:space="preserve">
+    <value>Upload image</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="nextstep" xml:space="preserve">
+    <value>Next Step</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="classname" xml:space="preserve">
+    <value>Class name</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="classprimarykey" xml:space="preserve">
+    <value>Class primary key</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="attributename" xml:space="preserve">
+    <value>Attribute name</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Type</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="list" xml:space="preserve">
+    <value>List</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="editable" xml:space="preserve">
+    <value>Editable</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="required" xml:space="preserve">
+    <value>Required</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="minimumlength" xml:space="preserve">
+    <value>Minimum length</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="maximumlength" xml:space="preserve">
+    <value>Maximum length</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="regex" xml:space="preserve">
+    <value>Regex</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="remove" xml:space="preserve">
+    <value>Remove</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="query" xml:space="preserve">
+    <value>Query</value>
+    <comment>Need review</comment>
+  </data>
 </root>
