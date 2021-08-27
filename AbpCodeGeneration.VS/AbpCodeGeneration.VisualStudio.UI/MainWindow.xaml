@@ -3,32 +3,32 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:properties="clr-namespace:AbpCodeGeneration.VisualStudio.UI.Properties"
+        xmlns:local="clr-namespace:AbpCodeGeneration.VisualStudio.UI"
         mc:Ignorable="d">
     <StackPanel>
         <StackPanel Orientation="Horizontal">
-            <Label Content="{x:Static properties:Resources.classname}"></Label>
-            <TextBox x:Name="ClassLocalName" Width="113" VerticalContentAlignment="Center"/>
-            <Label Content="{x:Static properties:Resources.classprimarykey}"/>
-            <TextBox x:Name="ClassKeyType" Width="116" VerticalContentAlignment="Center"/>
-            <!--<Label>Namespace prefix</Label>
+            <Label>类中文名</Label>
+            <TextBox x:Name="ClassLocalName" Width="50" VerticalContentAlignment="Center"/>
+            <Label>类主键</Label>
+            <TextBox x:Name="ClassKeyType" Width="50" VerticalContentAlignment="Center"/>
+            <!--<Label>命名空间前缀</Label>
             <TextBox x:Name="NamespacePrefix" Width="80"/>-->
         </StackPanel>
         <DataGrid x:Name="PropertyGrid" AutoGenerateColumns="False" SelectionUnit="CellOrRowHeader" LoadingRow="DataGrid_LoadingRow">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="{x:Static properties:Resources.attributename}" Width="100" Binding="{Binding PropertyName, UpdateSourceTrigger=PropertyChanged}" />
-                <DataGridTextColumn Header="{x:Static properties:Resources.type}" Width="80" Binding="{Binding PropertyType, UpdateSourceTrigger=PropertyChanged}" />
-                <DataGridCheckBoxColumn Header="{x:Static properties:Resources.list}" Width="70" Binding="{Binding IsList, UpdateSourceTrigger=PropertyChanged}" />
-                <DataGridCheckBoxColumn Header="{x:Static properties:Resources.editable}" Width="70" Binding="{Binding IsEdit, UpdateSourceTrigger=PropertyChanged}" />                
-                <DataGridCheckBoxColumn Header="{x:Static properties:Resources.required}" Width="70" Binding="{Binding Required, UpdateSourceTrigger=PropertyChanged}" />
-                <DataGridTextColumn Header="{x:Static properties:Resources.minimumlength}" Width="100" Binding="{Binding MinLength, UpdateSourceTrigger=PropertyChanged}" />
-                <DataGridTextColumn Header="{x:Static properties:Resources.maximumlength}" Width="100" Binding="{Binding MaxLength, UpdateSourceTrigger=PropertyChanged}" />
-                <DataGridTextColumn Header="{x:Static properties:Resources.regex}" Width="150" Binding="{Binding Regular, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridTextColumn Header="属性名" Width="80" Binding="{Binding PropertyName, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridTextColumn Header="类型" Width="80" Binding="{Binding PropertyType, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridCheckBoxColumn Header="列表" Width="80" Binding="{Binding IsList, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridCheckBoxColumn Header="修改" Width="80" Binding="{Binding IsEdit, UpdateSourceTrigger=PropertyChanged}" />                
+                <DataGridCheckBoxColumn Header="必填" Width="80" Binding="{Binding Required, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridTextColumn Header="最小长度" Width="80" Binding="{Binding MinLength, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridTextColumn Header="最大长度" Width="80" Binding="{Binding MaxLength, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridTextColumn Header="正则" Width="150" Binding="{Binding Regular, UpdateSourceTrigger=PropertyChanged}" />
             </DataGrid.Columns>
         </DataGrid>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button x:Name="Remove" Content="{x:Static properties:Resources.remove}" Click="Remove_Click"></Button>
-            <Button x:Name="Query" Content="{x:Static properties:Resources.query}" Click="Query_Click"></Button>
+            <Button x:Name="Remove" Content="删除" Click="Remove_Click"></Button>
+            <Button x:Name="Query" Content="确认" Click="Query_Click"></Button>
         </StackPanel>
     </StackPanel>
 </UserControl>
