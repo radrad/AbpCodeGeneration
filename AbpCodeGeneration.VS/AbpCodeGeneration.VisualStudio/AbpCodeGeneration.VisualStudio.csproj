@@ -89,10 +89,13 @@
     <Content Include="Resources\AbpCodeGenerationPackage.ico" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="VSPackage.en.resx" />
+    <EmbeddedResource Include="VSPackage.hr.resx" />
     <EmbeddedResource Include="VSPackage.resx">
       <MergeWithCTO>true</MergeWithCTO>
       <ManifestResourceName>VSPackage</ManifestResourceName>
     </EmbeddedResource>
+    <EmbeddedResource Include="VSPackage.zh-CN.resx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AbpCodeGeneration.VisualStudio.Common\AbpCodeGeneration.VisualStudio.Common.csproj">
