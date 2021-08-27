@@ -2,10 +2,19 @@
 name: Create translation pull request
 
 # Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the main branch
+# events but only for the master branch
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
+    paths:
+    - '**.ini'       # INI-based, key value pair file format
+    - '**.po'        # Portable Object file format
+    - '**.restext'   # INI-based, key value pair file format
+    - '**.resx'      # XML-based (resource) translation file format, .NET
+    - '**.xliff'     # XML-based translation file format, version 2
+    - '**.json'      # JSON-based, key value pair file format    
+  pull_request:
+    branches: [ master ]
     paths:
     - '**.ini'       # INI-based, key value pair file format
     - '**.po'        # Portable Object file format
@@ -47,7 +56,7 @@ jobs:
           region: ${{ secrets.AZURE_TRANSLATOR_REGION }}
           # (Optional) Locales to translate to, otherwise all possible locales
           # are targeted. Requires double quotes.
-          toLocales: '["es","fr","de"]'
+          toLocales: '["es","fr","de","zh-CN","zh-HK","sr-Latn","fr-CA","hr"]'
 
       - name: create-pull-request
         uses: peter-evans/create-pull-request@v3.4.1

@@ -1,27 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-    VS SDK Notes: This resx file contains the resources that will be consumed from your package by Visual Studio.
-    For example, Visual Studio will attempt to load resource '400' from this resource stream when it needs to
-    load your package's icon. Because Visual Studio will always look in the VSPackage.resources stream first for
-    resources it needs, you should put additional resources that Visual Studio will load directly into this resx
-    file.
-
-    Resources that you would like to access directly from your package in a strong-typed fashion should be stored
-    in Resources.resx or another resx file.
--->
 <root>
-  <!--
-    Microsoft ResX Schema
-
+  <!-- 
+    Microsoft ResX Schema 
+    
     Version 2.0
-
-    The primary goals of this format is to allow a simple XML format
-    that is mostly human readable. The generation and parsing of the
-    various data types are done through the TypeConverter classes
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
     associated with the data types.
-
+    
     Example:
-
+    
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -36,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-
-    There are any number of "resheader" rows that contain simple
+                
+    There are any number of "resheader" rows that contain simple 
     name/value pairs.
-
-    Each data row contains a name, and value. The row also contains a
-    type or mimetype. Type corresponds to a .NET class that support
-    text/value conversion through the TypeConverter architecture.
-    Classes that don't support this are serialized and stored with the
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
     mimetype set.
-
-    The mimetype is used for serialized objects, and tells the
-    ResXResourceReader how to depersist the object. This is currently not
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
     extensible. For a given mimetype the value must be set accordingly:
-
-    Note - application/x-microsoft.net.object.binary.base64 is the format
-    that the ResXResourceWriter will generate, however the reader can
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
     read any of the formats listed below.
-
+    
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-
+    
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array
+    value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -127,23 +117,85 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="110" xml:space="preserve">
-    <value>AbpCodeGenerationPackage Extension</value>
+  <data name="basic" xml:space="preserve">
+    <value>Basic</value>
+  <comment>Need review</comment></data>
+  <data name="framework" xml:space="preserve">
+    <value>Framework</value>
+  <comment>Need review</comment></data>
+  <data name="features" xml:space="preserve">
+    <value>Features</value>
+  <comment>Need review</comment></data>
+  <data name="simplifiedDDD" xml:space="preserve">
+    <value>SimplifiedDDD</value>
+  <comment>Need review</comment></data>
+  <data name="standardDDD" xml:space="preserve">
+    <value>StandardDDD</value>
+  <comment>Need review</comment></data>
+  <data name="separateservicesharingpermissions" xml:space="preserve">
+    <value>Separate service sharing permissions</value>
+  <comment>Need review</comment></data>
+  <data name="namespaceprefix" xml:space="preserve">
+    <value>Namespace Prefix</value>
+  <comment>Need review</comment></data>
+  <data name="applicationservice" xml:space="preserve">
+    <value>Application Service</value>
+  <comment>Need review</comment></data>
+  <data name="domainservice" xml:space="preserve">
+    <value>Domain Service</value>
+  <comment>Need review</comment></data>
+  <data name="permissionservice" xml:space="preserve">
+    <value>Permission service</value>
+  <comment>Need review</comment></data>
+  <data name="controller" xml:space="preserve">
+    <value>Controller</value>
+  <comment>Need review</comment></data>
+  <data name="repository" xml:space="preserve">
+    <value>Repository</value>
+  <comment>Need review</comment></data>
+  <data name="excelimportexport" xml:space="preserve">
+    <value>Excel import and export</value>
+  <comment>Need review</comment></data>
+  <data name="nextstep" xml:space="preserve">
+    <value>Next Step</value>
   </data>
-  <data name="112" xml:space="preserve">
-    <value>AbpCodeGenerationPackage Visual Studio Extension Detailed Info</value>
+  <data name="uploadimage" xml:space="preserve">
+    <value>Upload image</value>
   </data>
-  <data name="400" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\AbpCodeGenerationPackage.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="classname" xml:space="preserve">
+    <value>Class name</value>
   </data>
-  <data name="1110" xml:space="preserve">
-    <value>AbpCodeGenerationPackage Extension</value>
+  <data name="classprimarykey" xml:space="preserve">
+    <value>Class primary key</value>
   </data>
-  <data name="1112" xml:space="preserve">
-    <value>AbpCodeGenerationPackage Visual Studio Extension Detailed Info</value>
+  <data name="attributename" xml:space="preserve">
+    <value>Attribute name</value>
   </data>
-  <data name="1400" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\AbpCodeGenerationPackage.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="list" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="editable" xml:space="preserve">
+    <value>Editable</value>
+  </data>
+  <data name="required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="minimumlength" xml:space="preserve">
+    <value>Minimum length</value>
+  </data>
+  <data name="maximumlength" xml:space="preserve">
+    <value>Maximum lenght</value>
+  </data>
+  <data name="regex" xml:space="preserve">
+    <value>Regex</value>
+  </data>
+  <data name="remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="query" xml:space="preserve">
+    <value>Query</value>
   </data>
 </root>
