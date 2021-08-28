@@ -209,4 +209,24 @@
     <value>Query</value>
     <comment>Need review</comment>
   </data>
+  <data name="error" xml:space="preserve">
+    <value>Error</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="classprimarykeyisrequired" xml:space="preserve">
+    <value>Class primary key is required</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="buildconfiguration" xml:space="preserve">
+    <value>Build Configuration</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="codegeneratedsuccessfully" xml:space="preserve">
+    <value>Code generated successfully</value>
+    <comment>Need review</comment>
+  </data>
+  <data name="message" xml:space="preserve">
+    <value>Message</value>
+    <comment>Need review</comment>
+  </data>
 </root>

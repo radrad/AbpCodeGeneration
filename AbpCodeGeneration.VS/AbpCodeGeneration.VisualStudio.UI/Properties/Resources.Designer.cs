@@ -88,6 +88,15 @@ namespace AbpCodeGeneration.VisualStudio.UI.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Build Configuration.
+        /// </summary>
+        public static string buildconfiguration {
+            get {
+                return ResourceManager.GetString("buildconfiguration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Class name.
         /// </summary>
         public static string classname {
@@ -102,6 +111,24 @@ namespace AbpCodeGeneration.VisualStudio.UI.Properties {
         public static string classprimarykey {
             get {
                 return ResourceManager.GetString("classprimarykey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Class primary key is required.
+        /// </summary>
+        public static string classprimarykeyisrequired {
+            get {
+                return ResourceManager.GetString("classprimarykeyisrequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Code generated successfully.
+        /// </summary>
+        public static string codegeneratedsuccessfully {
+            get {
+                return ResourceManager.GetString("codegeneratedsuccessfully", resourceCulture);
             }
         }
         
@@ -129,6 +156,15 @@ namespace AbpCodeGeneration.VisualStudio.UI.Properties {
         public static string editable {
             get {
                 return ResourceManager.GetString("editable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        public static string error {
+            get {
+                return ResourceManager.GetString("error", resourceCulture);
             }
         }
         
@@ -174,6 +210,15 @@ namespace AbpCodeGeneration.VisualStudio.UI.Properties {
         public static string maximumlength {
             get {
                 return ResourceManager.GetString("maximumlength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Message.
+        /// </summary>
+        public static string message {
+            get {
+                return ResourceManager.GetString("message", resourceCulture);
             }
         }
         

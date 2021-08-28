@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpCodeGeneration.VisualStu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpCodeGeneration.VisualStudio.Common", "AbpCodeGeneration.VisualStudio.Common\AbpCodeGeneration.VisualStudio.Common.csproj", "{6F613B3D-3320-4DE8-809B-C636875686E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{BBB893AD-A9CA-4992-8459-6A661C0A4A5A}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\main.yml = ..\.github\workflows\main.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,7 +37,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		RESX_AutoCreateNewLanguageFiles = True
 		SolutionGuid = {60DC0195-9A4E-43FD-BD97-A16D4AE2FE67}
+		RESX_AutoCreateNewLanguageFiles = True
 	EndGlobalSection
 EndGlobal

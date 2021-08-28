@@ -7,21 +7,7 @@ on:
   push:
     branches: [ master ]
     paths:
-    - '**.ini'       # INI-based, key value pair file format
-    - '**.po'        # Portable Object file format
-    - '**.restext'   # INI-based, key value pair file format
-    - '**.resx'      # XML-based (resource) translation file format, .NET
-    - '**.xliff'     # XML-based translation file format, version 2
-    - '**.json'      # JSON-based, key value pair file format    
-  pull_request:
-    branches: [ master ]
-    paths:
-    - '**.ini'       # INI-based, key value pair file format
-    - '**.po'        # Portable Object file format
-    - '**.restext'   # INI-based, key value pair file format
-    - '**.resx'      # XML-based (resource) translation file format, .NET
-    - '**.xliff'     # XML-based translation file format, version 2
-    - '**.json'      # JSON-based, key value pair file format
+    - '**.en.resx'      # XML-based (resource) translation file format, .NET
 
 # GitHub automatically creates a GITHUB_TOKEN secret to use in your workflow.
 env:
@@ -42,7 +28,7 @@ jobs:
       # Use the machine-translator to automatically translate resource files
       - name: Machine Translator
         id: translator
-        uses: IEvangelist/resource-translator@v2.1.1
+        uses: IEvangelist/resource-translator@v2.1.6
         with:
           # The source locale (for example, 'en') used to create the glob pattern
           # for which resource (**/*.en.resx) files to use as input
@@ -59,7 +45,7 @@ jobs:
           toLocales: '["es","fr","de","zh-CN","zh-HK","sr-Latn","fr-CA","hr"]'
 
       - name: create-pull-request
-        uses: peter-evans/create-pull-request@v3.4.1
+        uses: peter-evans/create-pull-request@v3.10.1
         if: ${{ steps.translator.outputs.has-new-translations }} == 'true'
         with:
           title: '${{ steps.translator.outputs.summary-title }}'

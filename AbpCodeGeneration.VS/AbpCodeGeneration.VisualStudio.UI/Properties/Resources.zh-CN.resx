@@ -198,4 +198,19 @@
   <data name="query" xml:space="preserve">
     <value>确认</value>
   </data>
+  <data name="classprimarykeyisrequired" xml:space="preserve">
+    <value>类主键是必须的</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="buildconfiguration" xml:space="preserve">
+    <value>生成配置</value>
+  </data>
+  <data name="codegeneratedsuccessfully" xml:space="preserve">
+    <value>代码生成成功</value>
+  </data>
+  <data name="message" xml:space="preserve">
+    <value>提示</value>
+  </data>
 </root>

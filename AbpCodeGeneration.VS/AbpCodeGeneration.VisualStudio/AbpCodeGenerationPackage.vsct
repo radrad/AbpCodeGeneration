@@ -57,7 +57,7 @@
         <Parent guid="guidAbpCodeGenerationPackageCmdSet" id="MyMenuGroup" />
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
-          <ButtonText>Abp代码生成——Snow</ButtonText>
+          <ButtonText>Abp.IO Code Generator——Snow</ButtonText>
         </Strings>
       </Button>
     </Buttons>
