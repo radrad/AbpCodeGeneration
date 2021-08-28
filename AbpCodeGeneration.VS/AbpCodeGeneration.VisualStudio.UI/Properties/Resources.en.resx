@@ -187,7 +187,7 @@
     <value>Minimum length</value>
   </data>
   <data name="maximumlength" xml:space="preserve">
-    <value>Maximum lenght</value>
+    <value>Maximum length</value>
   </data>
   <data name="regex" xml:space="preserve">
     <value>Regex</value>
@@ -197,5 +197,20 @@
   </data>
   <data name="query" xml:space="preserve">
     <value>Query</value>
+  </data>
+  <data name="classprimarykeyisrequired" xml:space="preserve">
+    <value>Class primary key is required</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="buildconfiguration" xml:space="preserve">
+    <value>Build Configuration</value>
+  </data>
+  <data name="codegeneratedsuccessfully" xml:space="preserve">
+    <value>Code generated successfully</value>
+  </data>
+  <data name="message" xml:space="preserve">
+    <value>Message</value>
   </data>
 </root>

@@ -59,7 +59,7 @@ namespace AbpCodeGeneration.VisualStudio.UI
         {
             if (String.IsNullOrWhiteSpace(ClassKeyType.Text))
             {
-                MessageBox.Show("类主键是必须的", "错误", MessageBoxButton.OK, MessageBoxImage.Error, MessageBoxResult.None);
+                MessageBox.Show(Properties.Resources.classprimarykeyisrequired, "AbpCodeGeneration.VisualStudio.UI.Properties.Resources.error", MessageBoxButton.OK, MessageBoxImage.Error, MessageBoxResult.None);
                 return;
             }
 
@@ -84,7 +84,7 @@ namespace AbpCodeGeneration.VisualStudio.UI
                 PictureUpload = _setting.PictureUpload,
                 IsStandardProject = _setting.IsStandardProject
             });
-            MessageBoxResult result = MessageBox.Show("代码生成成功", "提示", MessageBoxButton.OK, MessageBoxImage.Information, MessageBoxResult.OK);
+            MessageBoxResult result = MessageBox.Show(AbpCodeGeneration.VisualStudio.UI.Properties.Resources.codegeneratedsuccessfully, AbpCodeGeneration.VisualStudio.UI.Properties.Resources.message, MessageBoxButton.OK, MessageBoxImage.Information, MessageBoxResult.OK);
             if (result == MessageBoxResult.OK)
             {
                 //获取父窗体并关闭
