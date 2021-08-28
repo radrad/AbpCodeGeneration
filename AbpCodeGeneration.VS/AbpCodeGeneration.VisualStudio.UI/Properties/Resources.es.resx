@@ -59,19 +59,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="basic" xml:space="preserve">
-    <value>Osnovni</value>
+    <value>Básico</value>
     <comment>Need review</comment>
   </data>
   <data name="framework" xml:space="preserve">
-    <value>Okvir</value>
+    <value>Marco de referencia</value>
     <comment>Need review</comment>
   </data>
   <data name="features" xml:space="preserve">
-    <value>Značajkama</value>
+    <value>Funciones</value>
     <comment>Need review</comment>
   </data>
   <data name="simplifiedDDD" xml:space="preserve">
-    <value>PojednostavljeniDDDD</value>
+    <value>SimplificadoDDD</value>
     <comment>Need review</comment>
   </data>
   <data name="standardDDD" xml:space="preserve">
@@ -79,92 +79,92 @@
     <comment>Need review</comment>
   </data>
   <data name="separateservicesharingpermissions" xml:space="preserve">
-    <value>Odvojene dozvole za zajedničko korištenje usluga</value>
+    <value>Permisos de uso compartido de servicios independientes</value>
     <comment>Need review</comment>
   </data>
   <data name="namespaceprefix" xml:space="preserve">
-    <value>Prefiks prostora naziva</value>
+    <value>Prefijo de espacio de nombres</value>
     <comment>Need review</comment>
   </data>
   <data name="applicationservice" xml:space="preserve">
-    <value>Servis aplikacije</value>
+    <value>Servicio de aplicación</value>
     <comment>Need review</comment>
   </data>
   <data name="domainservice" xml:space="preserve">
-    <value>Servis domene</value>
+    <value>Servicio de dominio</value>
     <comment>Need review</comment>
   </data>
   <data name="permissionservice" xml:space="preserve">
-    <value>Usluga dozvole</value>
+    <value>Servicio de permisos</value>
     <comment>Need review</comment>
   </data>
   <data name="controller" xml:space="preserve">
-    <value>Kontrolor</value>
+    <value>Controlador</value>
     <comment>Need review</comment>
   </data>
   <data name="repository" xml:space="preserve">
-    <value>Nosilac</value>
+    <value>Depósito</value>
     <comment>Need review</comment>
   </data>
   <data name="excelimportexport" xml:space="preserve">
-    <value>Uvoz i izvoz programa Excel</value>
+    <value>Importación y exportación de Excel</value>
     <comment>Need review</comment>
   </data>
   <data name="nextstep" xml:space="preserve">
-    <value>Sljedeći korak</value>
+    <value>Siguiente paso</value>
   </data>
   <data name="uploadimage" xml:space="preserve">
-    <value>Prenesi sliku</value>
+    <value>Subir imagen</value>
   </data>
   <data name="classname" xml:space="preserve">
-    <value>Naziv klase</value>
+    <value>Nombre de la clase</value>
   </data>
   <data name="classprimarykey" xml:space="preserve">
-    <value>Primarni ključ klase</value>
+    <value>Clave principal de clase</value>
   </data>
   <data name="attributename" xml:space="preserve">
-    <value>Naziv atributa</value>
+    <value>Nombre del atributo</value>
   </data>
   <data name="type" xml:space="preserve">
-    <value>Tip</value>
+    <value>Tipo</value>
   </data>
   <data name="list" xml:space="preserve">
-    <value>Popis</value>
+    <value>Lista</value>
   </data>
   <data name="editable" xml:space="preserve">
-    <value>Uređivati</value>
+    <value>Editable</value>
   </data>
   <data name="required" xml:space="preserve">
-    <value>Potreban</value>
+    <value>Obligatorio</value>
   </data>
   <data name="minimumlength" xml:space="preserve">
-    <value>Minimalna duljina</value>
+    <value>Longitud mínima</value>
   </data>
   <data name="maximumlength" xml:space="preserve">
-    <value>Maksimalna duljina</value>
+    <value>Longitud máxima</value>
   </data>
   <data name="regex" xml:space="preserve">
     <value>Regex</value>
   </data>
   <data name="remove" xml:space="preserve">
-    <value>Odstraniti</value>
+    <value>Eliminar</value>
   </data>
   <data name="query" xml:space="preserve">
-    <value>Upit</value>
+    <value>Consulta</value>
   </data>
   <data name="classprimarykeyisrequired" xml:space="preserve">
-    <value>Potreban je primarni ključ klase</value>
+    <value>Se requiere clave principal de clase</value>
   </data>
   <data name="error" xml:space="preserve">
-    <value>Greška</value>
+    <value>Error</value>
   </data>
   <data name="buildconfiguration" xml:space="preserve">
-    <value>Konfiguracija međuverzije</value>
+    <value>Configuración de compilación</value>
   </data>
   <data name="codegeneratedsuccessfully" xml:space="preserve">
-    <value>Kod je uspješno generiran</value>
+    <value>Código generado correctamente</value>
   </data>
   <data name="message" xml:space="preserve">
-    <value>Poruka</value>
+    <value>Mensaje</value>
   </data>
 </root>
