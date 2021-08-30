@@ -1,0 +1,71 @@
+﻿DomainName: CarbonKitchen
+BoundedContexts:
+- ProjectName: RecipeManagement
+  Port: 5005
+  DbContext:
+   ContextName: RecipesDbContext
+   DatabaseName: RecipeManagement
+   Provider: SqlServer
+  Entities:
+  - Name: Recipe
+    Features:
+    - Type: AddRecord
+    - Type: GetRecord
+    - Type: GetList
+    - Type: UpdateRecord
+    - Type: DeleteRecord
+    Properties:
+    - Name: RecipeId
+      IsPrimaryKey: true
+      Type: guid
+      CanFilter: true
+      CanSort: true
+    - Name: Title
+      Type: string
+      CanFilter: true
+      CanSort: true
+    - Name: Directions
+      Type: string
+      CanFilter: true
+      CanSort: true
+    - Name: RecipeSourceLink
+      Type: string
+      CanFilter: true
+      CanSort: true
+    - Name: Description
+      Type: string
+      CanFilter: true
+      CanSort: true
+    - Name: ImageLink
+      Type: string
+      CanFilter: true
+      CanSort: true
+  - Name: Ingredient
+    Features:
+    - Type: AddRecord
+    - Type: GetRecord
+    - Type: GetList
+    - Type: UpdateRecord
+    - Type: DeleteRecord
+    Properties:
+    - Name: IngredientId
+      IsPrimaryKey: true
+      Type: guid
+      CanFilter: true
+      CanSort: true
+    - Name: RecipeId
+      Type: int?
+      CanFilter: true
+      CanSort: true
+    - Name: Name
+      Type: string
+      CanFilter: true
+      CanSort: true
+    - Name: Unit
+      Type: string
+      CanFilter: true
+      CanSort: true
+    - Name: Amount
+      Type: double?
+      CanFilter: true
+      CanSort: true
